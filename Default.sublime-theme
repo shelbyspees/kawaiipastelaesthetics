@@ -1,0 +1,20 @@
+// Documentation at https://www.sublimetext.com/docs/themes.html
+{
+    "variables":
+    {
+        "fairy_floss_background": "#5A5475",
+        "fairy_floss_title_bar":  "color(var(fairy_floss_background) l(45%))",
+        "fairy_floss_foreground": "#F8F8F2",
+        "kawaii_pastel_background":"#FBE0F1",
+        "kawaii_pastel_title_bar": "color(var(kawaii_pastel_background) l(90%))",
+        "kawaii_pastel_foreground":"#B388EB",
+    },
+    "rules":
+    [
+        {
+            "class": "title_bar",
+            "bg": "var(kawaii_pastel_title_bar)",
+            "fg": "var(kawaii_pastel_foreground)",
+        },
+    ]
+}
